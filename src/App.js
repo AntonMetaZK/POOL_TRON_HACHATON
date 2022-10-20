@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Pool from "./pages/Pools";
 import DepositWindow from "./components/DepositeWindow";
 import DepositWindowPage from "./pages/DepositeWindow";
+import Account from './pages/Account/Account';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route exact path="/main" element={<Layout />} />
               <Route exact path="/pools" element={<Pool />} />
+              <Route exact path="/account"element={<Account />} />
               <Route exact path="/pools/:id" element={<DepositWindowPage />} />
           </Routes>
       </>

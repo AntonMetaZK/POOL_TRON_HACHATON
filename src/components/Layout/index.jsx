@@ -28,7 +28,7 @@ const Layout = ({children}) => {
                             </Typography>
                         </NavLink>
 
-                        <NavLink to='/prixe' style={{ textDecoration: "none" }}>
+                        <NavLink to='/prize' style={{ textDecoration: "none" }}>
                             <Typography variant='h5' sx={{ marginTop: "10px", fontSize: "30px", color: "#fff"}}>
                                 PRIZE
                             </Typography>
