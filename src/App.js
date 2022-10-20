@@ -12,10 +12,10 @@ function App() {
       <>
           <Header />
           <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="main" element={<Layout />} />
-              <Route path="pools" element={<Pool />} />
-              <Route path="pools/:id" element={<DepositWindowPage />} />
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/main" element={<Layout />} />
+              <Route exact path="/pools" element={<Pool />} />
+              <Route exact path="/pools/:id" element={<DepositWindowPage />} />
           </Routes>
       </>
 
