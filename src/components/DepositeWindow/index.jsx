@@ -37,7 +37,7 @@ const DepositWindow = ({ logo, title, price, titleCr }) => {
                 />
 
                 <Typography variant="h4" sx={{ color: "#fff", fontFamily: "Nunito", fontWeight: "500", paddingTop: "10px" }}>
-                    {title}
+                    {title} Pool
                 </Typography>
             </Box>
 
@@ -99,7 +99,7 @@ const DepositWindow = ({ logo, title, price, titleCr }) => {
             </Box>
 
             <ColorButton>
-                Deposit {titleCr}
+                Deposit {title}
             </ColorButton>
 
         </Box>

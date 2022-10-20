@@ -23,7 +23,6 @@ const ColorButton = styled(Button)(({ theme }) => ({
 const Home = () => {
     return (
         <Box>
-            <Header />
             <Box sx={{ backgroundColor: "#202225", height: "980px" }}>
                     <Box sx={{ paddingTop: "200px", paddingLeft: "128px" }}>
                         <Typography variant="h2" sx={{ color: "#fff" }}>

@@ -19,12 +19,12 @@ const ColorButton = styled(Button)(({ theme }) => ({
 }));
 
 
-const Deposit = ({ logo, title, price }) => {
+const Deposit = ({ logo, title, price, id }) => {
   return (
       <>
           <Box
               sx={{ width: "900px", height: "250px",
-                  marginTop: "20px", bgcolor: "#36393F", borderRadius: "20px", }}>
+                  marginTop: "15px", bgcolor: "#36393F", borderRadius: "20px", }}>
               <Box sx={{ display: "flex", gap: "30px", flexDirection: "row" }}>
                   <CardMedia
                       component="img"
@@ -34,7 +34,7 @@ const Deposit = ({ logo, title, price }) => {
                       sx={{ width: "35px" }}
                   />
                   <Typography variant="body1" sx={{ color: "#fff", fontFamily: "Nunito", fontWeight: "500", paddingTop: "10px" }}>
-                       {title}
+                       {title} Pool
                   </Typography>
               </Box>
 
@@ -76,9 +76,12 @@ const Deposit = ({ logo, title, price }) => {
                       </Typography>
                   </Box>
               </Typography>
-              <ColorButton>
-                  Deposit
-              </ColorButton>
+              <NavLink to={`${id}`} style={{ textDecoration: "none" }}>
+                  <ColorButton>
+                      Deposit
+                  </ColorButton>
+              </NavLink>
+
           </Box>
       </>
 
