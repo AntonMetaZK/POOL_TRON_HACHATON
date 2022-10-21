@@ -21,7 +21,7 @@ const ColorButton = styled(Button)(({ theme }) => ({
 
 const Deposit = ({ logo, title, price, id }) => {
   return (
-      <>
+      <Box sx={{display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center"}}>
           <Box
               sx={{ width: "900px", height: "250px",
                   marginTop: "15px", bgcolor: "#36393F", borderRadius: "20px", }}>
@@ -83,7 +83,7 @@ const Deposit = ({ logo, title, price, id }) => {
               </NavLink>
 
           </Box>
-      </>
+      </Box>
 
   )
 };

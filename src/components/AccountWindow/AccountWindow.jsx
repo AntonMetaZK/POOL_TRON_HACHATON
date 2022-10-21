@@ -3,7 +3,7 @@ import {Box, Typography} from "@mui/material";
 
 function AccountWindow (props) {
     return (
-        <Box sx={{ width: "1220px", height: "810px", marginTop: "102px", bgcolor: "#36393F", borderRadius: "20px",}}>
+        <Box sx={{ display: 'flex', flexDirection: "column", width: "1220px", minHeight: "494px", mt: "102px", ml: "176px", bgcolor: "#36393F", borderRadius: "20px",}}>
           <Typography variant="h2" sx={{ color: "#fff", fontSize: "64px", fontFamily: "Nunito", fontWeight: "500", paddingTop: "10px", marginLeft: "33px" }}>
             {props.title}
           </Typography>

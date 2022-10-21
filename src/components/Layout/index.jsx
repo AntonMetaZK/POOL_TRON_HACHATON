@@ -9,7 +9,7 @@ const Layout = ({children}) => {
 
 
     return (
-        <Box>
+        <Box sx={{minHeight: "100vh"}}>
             <Box sx={{ bgcolor: "#2C2F33",
                 display: 'flex', height: "100%", paddingLeft: "80px" }} >
 
@@ -38,8 +38,7 @@ const Layout = ({children}) => {
 
                 <Box
                     sx={{ width: "2040px", minHeight: "897px", height: "100%",
-                        bgcolor: "#202225", borderRadius: "60px 0px 0px 0px", marginLeft: "110px",
-                        display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center"}}>
+                        bgcolor: "#202225", borderRadius: "60px 0px 0px 0px", marginLeft: "110px"}}>
                     {children}
 
                 </Box>
