@@ -19,14 +19,14 @@ const Header = () => {
     const [isConnect, setIsConnect] = React.useState(false);
 
     return (
-        <AppBar sx={{ bgcolor: "#2C2F33", position: "static" }}>
+        <AppBar sx={{ bgcolor: "#2C2F33", maxWidth: "100%", position: "static" }}>
             <Toolbar>
                 <Typography variant="h2">
                     POOL
                 </Typography>
 
 
-                {isConnect ? (<Box sx={{ display: "flex", gap: "20px",marginLeft: "1400px" }}>
+                {isConnect ? (<Box sx={{ display: "flex", gap: "20px", paddingLeft: "1350px" }}>
                     <Typography variant="h6">
                         English
                     </Typography>
@@ -39,9 +39,11 @@ const Header = () => {
                         App
                     </ColorButton>
                 </Box>) : (
-                    <ColorButton sx={{ marginLeft: "1540px", textTransform: "lowercase" }}>
-                        Connect wallet
-                    </ColorButton>
+                    <Box sx={{ marginLeft: "auto", textTransform: "lowercase" }}>
+                        <ColorButton>
+                            Connect wallet
+                        </ColorButton>
+                    </Box>
                 )}
 
 

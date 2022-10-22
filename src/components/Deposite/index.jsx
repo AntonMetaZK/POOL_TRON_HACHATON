@@ -23,12 +23,12 @@ const Deposit = ({ logo, title, price, id }) => {
   return (
       <>
           <Box
-              sx={{ width: "900px", height: "250px",
+              sx={{ maxWidth: "900px", width: "100%", height: "250px",
                   marginTop: "15px", bgcolor: "#36393F", borderRadius: "20px", }}>
               <Box sx={{ display: "flex", gap: "30px", flexDirection: "row" }}>
                   <CardMedia
                       component="img"
-                      height="35"
+                      height="100%"
                       image={logo}
                       alt="logo"
                       sx={{ width: "35px" }}

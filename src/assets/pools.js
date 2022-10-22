@@ -18,4 +18,4 @@ export const Pools = [
         prize: "1,337",
         logo: USDCLogo
     },
-]
+];

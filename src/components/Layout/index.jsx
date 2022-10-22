@@ -9,11 +9,10 @@ const Layout = ({children}) => {
 
 
     return (
-        <Box>
             <Box sx={{ bgcolor: "#2C2F33",
-                display: 'flex', height: "100%", paddingLeft: "80px" }} >
+                display: 'flex', height: "100%", width: "100%" }} >
 
-                <Box sx={{ display: "flex", flexDirection: "column", paddingTop: "175px",}}>
+                <Box sx={{ display: "flex", flexDirection: "column", paddingTop: "175px", marginLeft: "60px"}}>
                     <nav>
                         <NavLink to='/pools' style={{ textDecoration: "none" }}>
                             <Typography variant='h5' sx={{ marginTop: "10px", fontSize: "30px", color: "#fff"}}>
@@ -28,7 +27,7 @@ const Layout = ({children}) => {
                             </Typography>
                         </NavLink>
 
-                        <NavLink to='/prixe' style={{ textDecoration: "none" }}>
+                        <NavLink to='/prize' style={{ textDecoration: "none" }}>
                             <Typography variant='h5' sx={{ marginTop: "10px", fontSize: "30px", color: "#fff"}}>
                                 PRIZE
                             </Typography>
@@ -37,14 +36,14 @@ const Layout = ({children}) => {
                 </Box>
 
                 <Box
-                    sx={{ width: "2040px", minHeight: "897px", height: "100%",
+                    sx={{ minWidth: "1600px", width: "100%", minHeight: "897px", height: "100%",
                         bgcolor: "#202225", borderRadius: "60px 0px 0px 0px", marginLeft: "110px",
                         display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center"}}>
                     {children}
 
                 </Box>
             </Box>
-        </Box>
+
     )
 }
 
