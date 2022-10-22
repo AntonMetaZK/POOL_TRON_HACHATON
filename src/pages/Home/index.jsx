@@ -26,7 +26,7 @@ const Home = () => {
 
                 <Box sx={{
                     display: 'flex', alignItems: "center", justifyContent: "center", alignContent: "center",
-                    minHeight: "500px", width: "100%", height: "100%", paddingTop: "160px"
+                    width: "100%", height: "57vh", paddingTop: "160px"
                 }}>
 
                     <Box sx={{  marginLeft: "auto" }}>
