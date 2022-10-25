@@ -20,7 +20,7 @@ const ColorButton = styled(Button)(({ theme }) => ({
 
 function WithdrawWindow({deposite, amount, logo}) {
   return (
-      <Box sx={{ display: 'flex', flexDirection: "column", width: "76.7%", minHeight: "560px", mt: "102px", ml: "176px", bgcolor: "#36393F", borderRadius: "20px",}}>
+      <Box sx={{ display: 'flex', flexDirection: "column", width: "76.7%", minHeight: "560px", margin: "102px auto 0", bgcolor: "#36393F", borderRadius: "20px",}}>
         <Typography variant="subtitle1" sx={{ color: "#fff", fontSize: "20px", fontFamily: "Nunito", fontWeight: "500", mt: "103px", ml: "182px" }}>
           Amount
         </Typography>
