@@ -20,9 +20,9 @@ const ColorButton = styled(Button)(({ theme }) => ({
 
 
 
-const DepositWindow = ({ logo, title, price, titleCr }) => {
+const DepositWindow = ({ logo, title, price }) => {
     return (
-        <Box sx={{ width: "1100px", height: "770px",
+        <Box sx={{ width: "70%", height: "770px",
             marginTop: "50px", bgcolor: "#36393F", borderRadius: "20px",}}>
 
 
@@ -52,43 +52,30 @@ const DepositWindow = ({ logo, title, price, titleCr }) => {
             <Typography variant="h5" sx={{ color: "#fff", alignItems: "center", textAlign: "center", paddingRight: "30px" }}>
                 00 : 01 : 33 : 07
 
-                <Box sx={{ display: "flex" }}>
-                    <Typography variant="subtitle2" sx={{ display: "flex", paddingLeft: "460px", fontSize: "11px"  }}>
-                        DAY
-                    </Typography>
-                    <Typography variant="subtitle2" sx={{ display: "flex", paddingLeft: "25px", fontSize: "11px"  }}>
-                        HR
-                    </Typography>
-                    <Typography variant="subtitle2" sx={{ display: "flex", paddingLeft: "25px", fontSize: "11px"  }}>
-                        MIN
-                    </Typography>
-                    <Typography variant="subtitle2" sx={{ display: "flex", paddingLeft: "25px", fontSize: "11px"  }}>
-                        SEC
-                    </Typography>
-                </Box>
+
             </Typography>
 
-            <Typography variant="subtitle2"
-                        sx={{ alignItems: "center", textAlign: "center", color: "#fff", paddingRight: "780px", paddingTop: "50px" }}>
+            <Typography variant="subtitle1"
+                        sx={{ alignItems: "center", color: "#fff", marginLeft: "10%", paddingTop: "50px" }}>
                 Ammount BTC
             </Typography>
 
-            <Box sx={{ textAlign: "center"  }}>
+            <Box sx={{ textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center"  }}>
                 <Box placeholder="0.0"  component="Input"
-                           sx={{ width: "900px", height: "130px",
+                           sx={{ width: "80%", height: "10vh",
                                borderRadius: "50px",
-                               backgroundColor: "#40444B", border: "10px",
-                               fontSize: "38px", color: "#fff"}} />
+                               backgroundColor: "#40444B", border: "30px",
+                               fontSize: "38px", color: "#fff", outline: "none"}} />
                 <Box
-                           sx={{ width: "900px", height: "60px",
+                           sx={{ width: "80%", height: "7vh",
                                borderRadius: "50px",
                                backgroundColor: "#40444B", border: "10px",
-                               color: "#fff", marginTop: "20px", marginLeft: "100px"}}>
-                    <Typography sx={{ paddingTop: "20px", marginRight: "700px" }}>
+                               color: "#fff", marginTop: "20px"}}>
+                    <Typography sx={{ paddingTop: "20px", marginRight: "70%" }}>
                         Daily winning odds:
                     </Typography>
 
-                    <Typography sx={{ marginLeft: "750px", marginTop: "-25px" }}>
+                    <Typography sx={{ marginLeft: "80%", marginTop: "-25px" }}>
                         0.00%
                     </Typography>
                 </Box>

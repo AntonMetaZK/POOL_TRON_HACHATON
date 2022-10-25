@@ -19,7 +19,7 @@ const Header = () => {
     const [isConnect, setIsConnect] = React.useState(false);
 
     return (
-        <AppBar sx={{ bgcolor: "#2C2F33", maxWidth: "100%", position: "static" }}>
+        <AppBar sx={{ bgcolor: "#2C2F33", width: "100%", position: "static" }}>
             <Toolbar>
                 <Typography variant="h2">
                     POOL

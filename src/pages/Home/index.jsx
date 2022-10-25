@@ -50,7 +50,7 @@ const Home = () => {
                         </NavLink>
                     </Box>
 
-                    <Box sx={{ marginLeft: "auto", marginRight: "10em", width: "30%"}}>
+                    <Box sx={{ marginLeft: "auto", marginRight: "10em", width: "40%"}}>
                         <Card
                               sx={{ display: "flex", textAlign: "center",
                                   backgroundColor: "#36393F", borderRadius: "50px", }}>
