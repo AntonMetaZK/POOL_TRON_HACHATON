@@ -3,7 +3,7 @@ import {Box, Typography} from "@mui/material";
 
 function AccountWindow (props) {
     return (
-        <Box sx={{ display: 'flex', flexDirection: "column", width: "80%", minHeight: "494px", mt: "102px", ml: "176px", bgcolor: "#36393F", borderRadius: "20px",}}>
+        <Box sx={{ display: 'flex', flexDirection: "column", width: "76.7%", minHeight: "45vh", margin: "102px auto 0", bgcolor: "#36393F", borderRadius: "20px",}}>
           <Typography variant="h2" sx={{ color: "#fff", fontSize: "64px", fontFamily: "Nunito", fontWeight: "500", paddingTop: "10px", marginLeft: "33px" }}>
             {props.title}
           </Typography>
@@ -11,14 +11,14 @@ function AccountWindow (props) {
             {props.subtitle}
           </Typography>
           <Typography variant="subtitle2"
-            sx={{ color: "#fff", ml: "192px", mt: "40px", mb: '9px' }}>
+            sx={{ color: "#fff", ml: "15.7%", mt: "40px", mb: '9px' }}>
               {props.summaryName}
           </Typography>    
           <Box
-            sx={{ display: "flex", flexDirection: "column", justifyContent: "center", width: "900px", height: "120px",
+            sx={{ display: "flex", flexDirection: "column", justifyContent: "center", width: "73.8%", height: "120px",
               borderRadius: "20px",
               backgroundColor: "#40444B", 
-              mt: "9px", ml: "159px"}}>
+              margin: "9px auto 0"}}>
             <Typography variant='subtitle1' sx={{ fontSize: "48px", color: "#FFFFFF", ml: "74px"}}>
               $ {props.summary}
             </Typography>

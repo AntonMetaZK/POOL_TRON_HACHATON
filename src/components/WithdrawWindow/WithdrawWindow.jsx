@@ -20,11 +20,11 @@ const ColorButton = styled(Button)(({ theme }) => ({
 
 function WithdrawWindow({deposite, amount, logo}) {
   return (
-      <Box sx={{ display: 'flex', flexDirection: "column", width: "1220px", minHeight: "560px", mt: "102px", ml: "176px", bgcolor: "#36393F", borderRadius: "20px",}}>
+      <Box sx={{ display: 'flex', flexDirection: "column", width: "76.7%", minHeight: "560px", mt: "102px", ml: "176px", bgcolor: "#36393F", borderRadius: "20px",}}>
         <Typography variant="subtitle1" sx={{ color: "#fff", fontSize: "20px", fontFamily: "Nunito", fontWeight: "500", mt: "103px", ml: "182px" }}>
           Amount
         </Typography>
-        <Box sx={{ display: "flex", justifyContent: "space-between", width: "900px", height: "128px",
+        <Box sx={{ display: "flex", justifyContent: "space-between", width: "73.8%", height: "128px",
               borderRadius: "20px",
               backgroundColor: "#40444B", 
               mt: "12px", ml: "159px", padding: "32px 91px 32px 70px", boxSizing: "border-box"}}>
@@ -39,7 +39,7 @@ function WithdrawWindow({deposite, amount, logo}) {
             {amount}
           </Typography>
         </Box>
-        <Box sx={{ display: "flex", justifyContent: "space-between", width: "900px", height: "64px",
+        <Box sx={{ display: "flex", justifyContent: "space-between", width: "73.8%", height: "64px",
               borderRadius: "20px",
               backgroundColor: "#40444B", 
               mt: "12px", ml: "159px", padding: "13px 91px 13px 70px", boxSizing: "border-box"}}>

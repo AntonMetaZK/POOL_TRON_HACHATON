@@ -22,7 +22,7 @@ const ColorButton = styled(Button)(({ theme }) => ({
 
 const Home = () => {
     return (
-            <Box sx={{ backgroundColor: "#202225",}}>
+            <Box sx={{ backgroundColor: "#202225", height: "100%"}}>
 
                 <Box sx={{
                     display: 'flex', alignItems: "center", justifyContent: "center", alignContent: "center",

@@ -33,15 +33,15 @@ function Account() {
         
       >
         <Typography variant="subtitle2"
-          sx={{ color: "#fff", ml: "192px", mt: "40px" }}>
+          sx={{ color: "#fff", ml: "15.7%", mt: "40px" }}>
           Deposits
         </Typography>
-        <Box sx={{ width: "900px", height: "300px",
+        <Box sx={{ width: "73.8%", minWidth: "55.6vh", height: "300px",
           boxSizing: "border-box",
           borderRadius: "20px",
           backgroundColor: "#40444B", 
-          mt: "9px", ml: "159px", mb: "105px",
-          padding: "55px 53px 55px 101px"
+          margin: "9px auto 105px",
+          padding: "4% 4% 4% 8.2%"
           }}>
           {Pools.map((item, i) => (        
             <Box key={i} id={i} sx={{ width: "100%",
