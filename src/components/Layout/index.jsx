@@ -11,9 +11,9 @@ const Layout = ({children}) => {
     return (
         <Box sx={{minHeight: "100vh"}}>
             <Box sx={{ bgcolor: "#2C2F33",
-                display: 'flex', height: "100%", paddingLeft: "80px" }} >
+                display: 'flex', height: "100%", width: "100%" }} >
 
-                <Box sx={{ display: "flex", flexDirection: "column", paddingTop: "175px",}}>
+                <Box sx={{ display: "flex", flexDirection: "column", paddingTop: "175px", marginLeft: "60px"}}>
                     <nav>
                         <NavLink to='/pools' style={{ textDecoration: "none" }}>
                             <Typography variant='h5' sx={{ marginTop: "10px", fontSize: "30px", color: "#fff"}}>
@@ -44,6 +44,7 @@ const Layout = ({children}) => {
                 </Box>
             </Box>
         </Box>
+
     )
 }
 
