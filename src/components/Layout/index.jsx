@@ -37,7 +37,7 @@ const Layout = ({children}) => {
                 </Box>
 
                 <Box
-                    sx={{ width: "2040px", minHeight: "897px", height: "100%",
+                    sx={{ width: "100%", height: "100vh",
                         bgcolor: "#202225", borderRadius: "60px 0px 0px 0px", marginLeft: "110px"}}>
                     {children}
 
